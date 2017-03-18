@@ -1,0 +1,46 @@
+<!DOCTYPE html/>
+  <head>
+    <title>Timm Derrickson Portfolio</title>
+    <link href="css/TimmDerrickson_portfolio.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <header>
+      <div class="header_social">
+        <a href="..."><img src="img/logo/Facebook Icon_abb69e.png" id='fbicon'/></a>
+        <a href="..."><img src="img/logo/Code Pen Icon_abb69e.png"/></a>
+      </div>
+    <img src="img/logo/TimmDerrickson_logo_3d524a.png"/>
+      <h1>Timm Derrickson</h1>
+      <nav>
+        <a href="...">Home</a>
+        <a href="...">Portfolio</a>
+        <a href="...">About</a>
+        <a href="...">Contact</a>
+      </nav>
+    </header>
+    <section id="gallery">
+      <div class="gal_item">
+        <a href="..."><img src="img/images/JeffLogGap_compressed.jpg"/></a>
+        <p>Image 1 Description</p>
+      </div>
+      <div class="gal_item">
+        <a href="..."><img src="img/images/JoeysBackonRock_compressed.jpg"/></a>
+        <p>Image 2 Description</p>
+      </div>
+      <div class="gal_item">
+        <a href="..."><img src="img/images/Grouponlog_compressed.jpg"/></a>
+        <p>Image 3 Description</p>
+      </div>
+      <div class="gal_item">
+        <a href="..."><img src="img/images/Sportline_compressed.jpg"/></a>
+        <p>Image 4 Description</p>
+      </div>
+      <div class="gal_item">
+        <a href="..."><img src="img/images/Overlook_compressed.jpg"/></a>
+        <p>Image 5 Description</p>
+      </div>
+    </section>
+    <footer>
+      <h4> &copy; - Timm Derrickson 2017 </h4>
+    </footer>
+  </body>

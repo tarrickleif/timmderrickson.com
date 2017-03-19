@@ -1,87 +1,109 @@
+/***body***/
+
 body {
-  background: url('../img/Timmonsnow.jpg') center center no-repeat;
+  background:  linear-gradient(to top, rgba(226,242,226,0.75) 5%, transparent, transparent), url(../img/images/TimmDerrickson_Glacier.jpg) no-repeat center center fixed;
   background-size: cover;
 }
+/*****Header*****/
 
 header {
-  background-color: rgba(218,236,228,0.7);
-  height: 185px;
-  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
+  background-color: rgba(218, 236, 228, 0.8);
+  height: 11rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
 }
 
-#td_logo_img {
+#tdLogo {
+  width: 5rem;
+  height: 5rem;
+  position: relative;
   display: block;
-  height: 80px;
-  width: 80px;
   margin: 0px auto;
 }
 
-h2 {
-  width: 80%;
-  font-size: 32px;
+.headerIconBox {
+  position: relative;
+  float: right;
+  height: 11rem;
+}
+
+.headerIcon {
+  display: block;
+  width: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+#fbIcon {
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
   font-family: sans-serif;
-  color: #a5a390;
+  font-size: 1.875rem;
+  color: #3d524a;
   text-align: center;
-  letter-spacing: 36px;
-  border-bottom: solid 2px #a5a390;
+  letter-spacing: 2.5rem;
+  border-bottom: 0.125rem solid #3d524a;
+  width: 80%;
+  position: relative;
   margin: 0px auto;
-  /*border: 2px blue solid;*/
 }
 
 nav {
   text-align: center;
-  margin-left: 40px;
-  display: flex;
-}
-
-nav a {
-  font-size: 1.75rem;
-  color: #3d524a;
+  word-spacing: 12.5rem;
   margin: 0px auto;
+}
+nav a {
+  position: relative;
+  font-family: serif;
+  font-size: 1.5625rem;
+  color: #abb69e;
   text-decoration: none;
-  /*background-color: yellow;*/
 }
 
-.header_icon {
-  height: 180px;
-  margin: auto 10px;
-  float: right;
+nav a:hover {
+  color: white;
 }
-.icon_header {
-  display: block;
-  width: 40px;
-  clear:both;
-  padding: 5px;
-  margin: 5px 0px  ;
+
+/***main***/
+
+  .textBox {
+    position: relative;
+    width: 50rem;
+    height: 36rem;
+    background-color: rgba(61,82,74,0.50);
+    margin: 50px auto 100px 120px;
+
   }
-
-#fb_header {
-  margin-top: 35px;
-}
-
-.text-box {
-  margin: 60px auto auto 160px;
-  width: 45%;
-  height: 50%;
-  border: 4px solid white;
-  }
-
-.text-box p {
-  font-size: 30px;
+.textBox p {
+  font-size: 1.8rem;
   font-family: sans-serif;
   color: #e2f2e2;
-  margin: 10px;
-  letter-spacing: 5px;
-  font-weight: lighter;
-  word-spacing: 1rem;
+  text-shadow: 0 0.1rem 0.125rem black;
+  text-align: justify;
+  justify-content: center;
+  text-indent: 1rem;
+  padding: 1.75rem;
 }
+
+
+/***footer***/
 
 footer {
   width: 100%;
-  display: block;
+
+}
+
+footer p {
   text-align: center;
-  position: absolute;
-  bottom: 0;
-  font-size: 1.25rem;
-  color: #e2f2e2;
+  font-size: 17px;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #3d524a;
 }
